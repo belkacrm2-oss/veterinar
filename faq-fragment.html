@@ -1,0 +1,215 @@
+<!-- FAQ FRAGMENT — скопируй этот блок в index.html перед секцией #contact -->
+
+<!-- ====== FAQ Schema.org ====== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Нужна ли запись заранее или можно прийти без записи?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Мы принимаем как по записи, так и без неё. Однако предварительная запись позволяет избежать ожидания: врач будет готов принять вашего питомца в удобное для вас время. Для плановых операций и сложных диагностических процедур запись обязательна. Экстренные случаи принимаем немедленно — круглосуточно, без записи."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Принимаете ли питомца без хозяина?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Нет, присутствие владельца или его официального представителя обязательно — это требование законодательства Республики Беларусь. Перед любой процедурой вы подписываете информированное согласие. В экстренных ситуациях, когда хозяин не может присутствовать, допускается нотариально заверенная доверенность на другое лицо."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Какие анестетики используете при операциях?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Мы применяем современные ингаляционные (изофлуран, севофлуран) и инъекционные анестетики (пропофол, дексмедетомидин) в зависимости от вида и состояния животного. Перед наркозом обязательно проводятся предоперационные анализы крови и ЭКГ. За каждым пациентом ведёт непрерывный мониторинг анестезиолог: пульсоксиметрия, капнография, АД. Протоколы анестезии разрабатываются индивидуально."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Как подготовить питомца к операции или анализам?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Перед плановой операцией под общим наркозом питомец должен голодать 8–12 часов (для кошек и собак), воду ограничивают за 4 часа. Перед сдачей биохимических анализов — голодание 4–6 часов. Точные инструкции вы получите при записи, так как требования могут отличаться в зависимости от вида животного и типа процедуры."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Работаете ли вы с экзотическими животными?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Да, наш специалист Мария Петрова принимает экзотических животных: кроликов, хомяков, морских свинок, шиншилл, черепах, ящериц, змей и птиц. Для крупных экзотических животных (приматы, крупные рептилии) рекомендуем уточнить возможность приёма заранее по телефону."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Сколько стоит первичный приём?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Стоимость первичного осмотра — от 25 BYN. При записи онлайн через сайт — скидка 10% на первый визит. Итоговая стоимость зависит от объёма осмотра и назначенных процедур. Полный прайс-лист уточняйте по телефону +375 (29) 123-45-67 или при визите в клинику."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Выезжаете ли вы на дом?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Да, вызов ветеринара на дом доступен для первичных осмотров, забора анализов, вакцинации и послеоперационного наблюдения. Вызов на дом не заменяет стационарную помощь при тяжёлых состояниях — в таких случаях мы рекомендуем привезти животное в клинику. Запись на выездной приём — по телефону."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Как долго ждать результатов анализов?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Общий анализ крови и мочи — в течение 30–60 минут прямо на приёме. Биохимия — 1–2 часа. Расширенные аллергопанели и ПЦР-исследования — 3–7 рабочих дней. Срочные анализы при экстренных состояниях выполняются в приоритетном порядке."
+      }
+    }
+  ]
+}
+</script>
+<!-- ====== END FAQ Schema.org ====== -->
+
+<!-- ====== FAQ СЕКЦИЯ HTML ====== -->
+<section id="faq" aria-labelledby="faq-heading">
+  <div class="section">
+    <div class="section-header">
+      <div class="section-tag">Вопрос — ответ</div>
+      <h2 id="faq-heading">Часто задаваемые вопросы</h2>
+      <p>Ответы на самые популярные вопросы о работе клиники, подготовке к приёму и процедурах</p>
+    </div>
+    <div class="faq-list" role="list">
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq-1">
+          <span>Нужна ли запись заранее или можно прийти без записи?</span>
+          <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-answer" id="faq-1" hidden>
+          <p>Мы принимаем как по записи, так и без неё. Однако <strong>предварительная запись</strong> позволяет избежать ожидания — врач будет готов принять вашего питомца в удобное для вас время.</p>
+          <p>Для плановых операций и сложных диагностических процедур запись обязательна. <strong>Экстренные случаи</strong> принимаем немедленно — круглосуточно, без записи.</p>
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq-2">
+          <span>Принимаете ли питомца без хозяина?</span>
+          <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-answer" id="faq-2" hidden>
+          <p>Нет, присутствие владельца или его официального представителя обязательно — это требование законодательства Республики Беларусь. Перед любой процедурой вы подписываете информированное согласие.</p>
+          <p>В исключительных ситуациях допускается <strong>нотариально заверенная доверенность</strong> на другое лицо.</p>
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq-3">
+          <span>Какие анестетики используете при операциях?</span>
+          <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-answer" id="faq-3" hidden>
+          <p>Мы применяем современные <strong>ингаляционные</strong> (изофлуран, севофлуран) и <strong>инъекционные</strong> анестетики (пропофол, дексмедетомидин) — в зависимости от вида и состояния животного.</p>
+          <p>Перед наркозом обязательны предоперационные анализы крови и ЭКГ. За каждым пациентом ведёт непрерывный мониторинг анестезиолог: пульсоксиметрия, капнография, АД. Протоколы анестезии разрабатываются <strong>индивидуально</strong>.</p>
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq-4">
+          <span>Как подготовить питомца к операции или анализам?</span>
+          <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-answer" id="faq-4" hidden>
+          <p>Перед плановой операцией под общим наркозом: голодание <strong>8–12 часов</strong> (кошки и собаки), воду ограничивают за 4 часа. Перед биохимическими анализами — голодание 4–6 часов.</p>
+          <p>Точные инструкции вы получите при записи — требования могут отличаться в зависимости от вида животного и типа процедуры.</p>
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq-5">
+          <span>Работаете ли вы с экзотическими животными?</span>
+          <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-answer" id="faq-5" hidden>
+          <p>Да! Наш специалист <strong>Мария Петрова</strong> принимает экзотических животных: кроликов, хомяков, морских свинок, шиншилл, черепах, ящериц, змей и птиц.</p>
+          <p>Для крупных экзотических животных (приматы, крупные рептилии) рекомендуем уточнить возможность приёма заранее по телефону.</p>
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq-6">
+          <span>Сколько стоит первичный приём?</span>
+          <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-answer" id="faq-6" hidden>
+          <p>Стоимость первичного осмотра — <strong>от 25 BYN</strong>. При записи онлайн через сайт — скидка 10% на первый визит.</p>
+          <p>Итоговая стоимость зависит от объёма осмотра и назначенных процедур. Полный прайс-лист уточняйте по телефону <strong>+375 (29) 123-45-67</strong>.</p>
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq-7">
+          <span>Выезжаете ли вы на дом?</span>
+          <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-answer" id="faq-7" hidden>
+          <p>Да, вызов ветеринара на дом доступен для первичных осмотров, забора анализов, вакцинации и послеоперационного наблюдения.</p>
+          <p>Вызов на дом не заменяет стационарную помощь при тяжёлых состояниях — в таких случаях рекомендуем привезти животное в клинику. Запись на выездной приём — по телефону.</p>
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-question" aria-expanded="false" aria-controls="faq-8">
+          <span>Как долго ждать результатов анализов?</span>
+          <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-answer" id="faq-8" hidden>
+          <p>Общий анализ крови и мочи — <strong>30–60 минут</strong> прямо на приёме. Биохимия — 1–2 часа. Расширенные аллергопанели и ПЦР — 3–7 рабочих дней.</p>
+          <p>Срочные анализы при экстренных состояниях выполняются в приоритетном порядке.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- ====== END FAQ СЕКЦИЯ ====== -->
+
+<!-- ====== CSS для FAQ (добавить в <style>) ====== -->
+<!--
+.faq-list { display: flex; flex-direction: column; gap: 0; border: 1px solid var(--color-border); border-radius: var(--radius-xl); overflow: hidden; }
+.faq-item { border-bottom: 1px solid var(--color-border); }
+.faq-item:last-child { border-bottom: none; }
+.faq-question { width: 100%; display: flex; justify-content: space-between; align-items: center; gap: var(--space-4); padding: var(--space-6) var(--space-8); background: var(--color-surface); text-align: left; font-size: var(--text-base); font-weight: 600; color: var(--color-text); transition: background var(--transition), color var(--transition); }
+.faq-question:hover { background: var(--color-surface-2); color: var(--color-primary); }
+.faq-question[aria-expanded="true"] { color: var(--color-primary); background: var(--color-surface-2); }
+.faq-icon { flex-shrink: 0; color: var(--color-text-muted); transition: transform 0.25s cubic-bezier(0.16,1,0.3,1); }
+.faq-question[aria-expanded="true"] .faq-icon { transform: rotate(180deg); color: var(--color-primary); }
+.faq-answer { padding: 0 var(--space-8) var(--space-6); background: var(--color-surface-2); }
+.faq-answer p { color: var(--color-text-muted); font-size: var(--text-base); line-height: 1.8; margin-bottom: var(--space-3); }
+.faq-answer p:last-child { margin-bottom: 0; }
+.faq-answer strong { color: var(--color-text); font-weight: 600; }
+@media (max-width: 768px) { .faq-question { padding: var(--space-4) var(--space-4); font-size: var(--text-sm); } .faq-answer { padding: 0 var(--space-4) var(--space-4); } }
+-->
+
+<!-- ====== JS для FAQ (добавить перед </body>) ====== -->
+<!--
+document.querySelectorAll('.faq-question').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const expanded = btn.getAttribute('aria-expanded') === 'true';
+    const answer = document.getElementById(btn.getAttribute('aria-controls'));
+    // закрыть все остальные
+    document.querySelectorAll('.faq-question[aria-expanded="true"]').forEach(other => {
+      if (other !== btn) {
+        other.setAttribute('aria-expanded', 'false');
+        document.getElementById(other.getAttribute('aria-controls')).hidden = true;
+      }
+    });
+    btn.setAttribute('aria-expanded', String(!expanded));
+    answer.hidden = expanded;
+  });
+});
+-->
